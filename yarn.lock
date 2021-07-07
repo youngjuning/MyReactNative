@@ -1361,15 +1361,15 @@
   dependencies:
     eslint-visitor-keys "^1.1.0"
 
-"@vant-react-native/button@^0.0.1":
-  version "0.0.1"
-  resolved "https://registry.nlark.com/@vant-react-native/button/download/@vant-react-native/button-0.0.1.tgz#db740f5ca0f195fe7b820f23bb7df2d3306fdaf6"
-  integrity sha1-23QPXKDxlf57gg8ju33y0zBv2vY=
+"@vant-react-native/button@^0.0.5":
+  version "0.0.5"
+  resolved "https://registry.nlark.com/@vant-react-native/button/download/@vant-react-native/button-0.0.5.tgz#a4a49ed3091c377ddeb9040d12562920eea35de4"
+  integrity sha1-pKSe0wkcN33euQQNElYpIO6jXeQ=
 
-"@vant-react-native/icons@^0.0.3":
-  version "0.0.3"
-  resolved "https://registry.nlark.com/@vant-react-native/icons/download/@vant-react-native/icons-0.0.3.tgz#7e1e9423df5746105775d3ed7129622d650a5496"
-  integrity sha1-fh6UI99XRhBXddPtcSliLWUKVJY=
+"@vant-react-native/icons@^0.0.7":
+  version "0.0.7"
+  resolved "https://registry.nlark.com/@vant-react-native/icons/download/@vant-react-native/icons-0.0.7.tgz#965c1a3390be8e7795f5a12cbc3e8d17de8a1c3b"
+  integrity sha1-llwaM5C+jneV9aEsvD6NF96KHDs=
 
 abab@^2.0.3, abab@^2.0.5:
   version "2.0.5"
@@ -1671,6 +1671,13 @@ babel-plugin-dynamic-import-node@^2.3.3:
   integrity sha512-jZVI+s9Zg3IqA/kdi0i6UDCybUI3aSBLnglhYbSSjKlV7yF1F/5LWv8MakQmvYpnbJDS6fcBL2KzHSxNCMtWSQ==
   dependencies:
     object.assign "^4.1.0"
+
+babel-plugin-import-vant@^0.1.5:
+  version "0.1.5"
+  resolved "https://registry.nlark.com/babel-plugin-import-vant/download/babel-plugin-import-vant-0.1.5.tgz#e8e016bcf998c934d0ce638f689694fb8159c63a"
+  integrity sha1-6OAWvPmYyTTQzmOPaJaU+4FZxjo=
+  dependencies:
+    babel-plugin-import "^1.13.3"
 
 babel-plugin-import@^1.13.3:
   version "1.13.3"
@@ -6363,13 +6370,13 @@ validate-npm-package-license@^3.0.1:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
 
-vant-react-native@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.nlark.com/vant-react-native/download/vant-react-native-0.2.0.tgz?cache=0&sync_timestamp=1625646139363&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fvant-react-native%2Fdownload%2Fvant-react-native-0.2.0.tgz#cbf90c305a6932f77a7ae7fd6bd56e4dc90373c7"
-  integrity sha1-y/kMMFppMvd6euf9a9VuTckDc8c=
+vant-react-native@^0.4.5:
+  version "0.4.5"
+  resolved "https://registry.nlark.com/vant-react-native/download/vant-react-native-0.4.5.tgz#a134de444046a3be9cfdbf768cec4c201fb03f55"
+  integrity sha1-oTTeREBGo76c/b92jOxMIB+wP1U=
   dependencies:
-    "@vant-react-native/button" "^0.0.1"
-    "@vant-react-native/icons" "^0.0.3"
+    "@vant-react-native/button" "^0.0.5"
+    "@vant-react-native/icons" "^0.0.7"
 
 vary@~1.1.2:
   version "1.1.2"
