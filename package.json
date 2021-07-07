@@ -8,13 +8,14 @@
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
-    "bundle:ios": "mkdirp bundle/ios && react-native bundle --platform ios --entry-file index.js --bundle-output ./bundle/ios/index.ios.jsbundle --assets-dest ./bundle/ios --dev false",
-    "bundle:android": "mkdirp bundle/android && react-native bundle --platform android --entry-file index.js --bundle-output bundle/android/index.android.bundle --assets-dest ./bundle/android --dev false"
+    "bundle:ios": "mkdirp bundle/ios && react-native bundle --platform ios --entry-file index.js --bundle-output ./bundle/ios/index.ios.jsbundle --assets-dest ./bundle/ios --dev false --reset-cache",
+    "bundle:android": "mkdirp bundle/android && react-native bundle --platform android --entry-file index.js --bundle-output bundle/android/index.android.bundle --assets-dest ./bundle/android --dev false --reset-cache"
   },
   "dependencies": {
     "react": "17.0.1",
     "react-native": "0.64.1",
-    "vant-react-native": "^0.4.5"
+    "react-native-svg": "^12.1.1",
+    "vant-react-native": "^0.4.9"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
@@ -24,7 +25,7 @@
     "@types/react-native": "^0.64.5",
     "@types/react-test-renderer": "^16.9.2",
     "babel-jest": "^26.6.3",
-    "babel-plugin-import-vant": "^0.1.5",
+    "babel-plugin-import-vant": "^0.2.0",
     "eslint": "^7.14.0",
     "jest": "^26.6.3",
     "metro-react-native-babel-preset": "^0.64.0",
